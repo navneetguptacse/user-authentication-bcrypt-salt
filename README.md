@@ -8,7 +8,7 @@ Together, they help protect user passwords from various types of attacks and ens
 
 This makes it significantly more challenging for attackers to compromise user accounts.
 
-### Use bcrypt to hash and verify passwords with a salt :
+### Use `bcrypt` to hash and verify passwords with a `salt` :
 
 - Install the bcrypt library if you haven't already:
 
