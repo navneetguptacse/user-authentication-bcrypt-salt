@@ -1,6 +1,6 @@
-## User Authentication in NodeJS using `bcrypt` & `salt`
+## User Authentication in Node.js using `bcrypt` & `salt`
 
-### Bcrypt & Salt
+### Bcrypt & Salt ?
 
 `bcrypt` is an algorithm for securely hashing passwords, and `salt` is a randomly generated value that is combined with the password before hashing to enhance security.
 
@@ -8,17 +8,17 @@ Together, they help protect user passwords from various types of attacks and ens
 
 This makes it significantly more challenging for attackers to compromise user accounts.
 
-### Use bcrypt to hash and verify passwords with a salt:
+### Use bcrypt to hash and verify passwords with a salt :
 
 - Install the bcrypt library if you haven't already:
 
     `npm install bcrypt`
 
-- Require the bcrypt library in your Node.js application:
+- Require the bcrypt library in your Node.js application :
 
     `const bcrypt = require('bcrypt');`
 
-- Hashing a password with a salt:
+- Hashing a password with a salt :
 
     ```
     const plaintextPassword = 'user_password'; // Replace with the actual user's password
@@ -43,7 +43,7 @@ This makes it significantly more challenging for attackers to compromise user ac
     });
 
     ```
-- Verifying a password during user login:
+- Verifying a password during user login :
 
     ```
     const enteredPassword = 'user_password'; // Replace with the password entered by the user
